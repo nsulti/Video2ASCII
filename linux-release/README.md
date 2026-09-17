@@ -18,6 +18,6 @@ Static builds suck. Or not. I don't care.
 
 Ironically, due to DLLs, the Windows version will run without recompiling.
 
-son im crine (trademarked and copyrighted)
+son im crine 😭🙏🏻 (trademarked and copyrighted)
 
 -nsulti
