@@ -20,4 +20,9 @@ Ironically, due to DLLs, the Windows version will run without recompiling.
 
 son im crine 😭🙏🏻 (trademarked and copyrighted)
 
+# RU: 
+я КЛЯНУСЬ это было сделано без ИИ, я оформил комментарии сам, и код тоже мой. просто захотел оформить как-то презентабельно.
+
+COMPILATION: "g++ -O3 vidtoascii_linuxbuild.cpp -o V2A -I/usr/include/opencv5/ -L/usr/lib -lopencv_core -lopencv_videoio -lopencv_imgproc -lopencv_highgui".
+
 -nsulti
