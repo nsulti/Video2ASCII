@@ -32,8 +32,8 @@ You must have **OpenCV libs** installed on your system environment to run the ex
 
 #### Linux (Arch Linux Verified 64-bit)
 ```bash
-# Requires OpenCV 5+ system libraries installed
-g++ -O3 main.cpp -o v2a `pkg-config --cflags --libs opencv4`
+# Requires OpenCV 5+ system libraries installed (if you REALLY want to recompile it.)
+g++ -O3 vidtoascii_linuxbuild.cpp -o V2A -I/usr/include/opencv5/ -L/usr/lib -lopencv_core -lopencv_videoio -lopencv_imgproc -lopencv_highgui
 ./v2a <path_to_video.mp4>
 # Or use live webcam input:
 ./v2a webcam
