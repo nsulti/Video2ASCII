@@ -8,11 +8,11 @@ The engine processes video buffers frame-by-frame, maps pixel luminance matrix d
 
 ### ✨ Features / Возможности
 
-- **Live Webcam & File Streaming:** Supports processing both static local video files and hardware-connected camera streams dynamically via `cv::VideoCapture`.
-- **TrueColor ANSI Coding:** Features full 24-bit RGB text colorization (`\033[38;2;R;G;Bm`), turning matrix vectors into crisp, colored terminal terminal views.
-- **Custom Precision Downscaling:** Features interactive real-time resolution scaling (Lanczos4/Nearest algorithms) to perfectly fit variable terminal sizes without breaking frame aspect ratios.
-- **Cross-Platform Base:** Tailored conditional macros (`#ifdef _WIN32 / __linux__`) to support clean frame clears across terminal environments.
-- **OpenCV 5+ Ecosystem Ready:** Upgraded and maintained layout to stay compliant with modern OpenCV specifications and thread handling.
+1. **Live Webcam & File Streaming:** Supports processing both static local video files and hardware-connected camera streams dynamically via `cv::VideoCapture`.
+2. **TrueColor ANSI Coding:** Features full 24-bit RGB text colorization (`\033[38;2;R;G;Bm`), turning matrix vectors into crisp, colored terminal terminal views.
+3. **Custom Precision Downscaling:** Features interactive real-time resolution scaling (Lanczos4/Nearest algorithms) to perfectly fit variable terminal sizes without breaking frame aspect ratios.
+4. **Cross-Platform Base:** Tailored conditional macros (`#ifdef _WIN32 / __linux__`) to support clean frame clears across terminal environments.
+5. **OpenCV 5+ Ecosystem Ready:** Upgraded and maintained layout to stay compliant with modern OpenCV specifications and thread handling.
 
 ---
 
@@ -48,8 +48,9 @@ v2a.exe <path_to_video.mp4>
 ---
 
 ### 🚧 Future Roadmap
-- Implement non-blocking terminal I/O to read dynamic hotkeys (like instant termination via the `Q` key) without waiting for frame syncs.
-- Perhaps, improve Windows version.
+❓ Implement non-blocking terminal I/O to read dynamic hotkeys (like instant termination via the `Q` key) without waiting for frame syncs.
+
+❓ Perhaps, improve Windows version.
 
 ---
 
