@@ -34,15 +34,17 @@ You must have **OpenCV libs** installed on your system environment to run the ex
 ```bash
 # Requires OpenCV 5+ system libraries installed (if you REALLY want to recompile it.)
 g++ -O3 vidtoascii_linuxbuild.cpp -o V2A -I/usr/include/opencv5/ -L/usr/lib -lopencv_core -lopencv_videoio -lopencv_imgproc -lopencv_highgui
-./v2a <path_to_video.mp4>
+./V2A <path_to_video.mp4>
 # Or use live webcam input:
-./v2a webcam
+./V2A webcam
 ```
 
 #### Windows (Tested on Win10 64-bit)
 Place the required OpenCV `.dll` runtimes inside the same build folder where the compiled `.exe` is located.
 ```cmd
-v2a.exe <path_to_video.mp4>
+VidToASCII.exe <path_to_video.mp4>
+# Or use live webcam input:
+VidToASCII.exe webcam
 ```
 
 ---
