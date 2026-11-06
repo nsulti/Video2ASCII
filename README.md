@@ -56,7 +56,7 @@ v2a.exe <path_to_video.mp4>
 
 ### 📄 License & Notes
 
-- **License:** **GNU GPLv3** — Feel free to use, break, and explore!
+- **License:** Unlicensed.
 - **Note from the author:** Windows version remains un-colorized and completely obsolete because static cross-platform builds are a massive hassle. *Son, I'm crine...* 😭🙏🏻
 
 ---
